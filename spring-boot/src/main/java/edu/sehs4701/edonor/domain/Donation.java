@@ -13,13 +13,13 @@ public class Donation {
     private String donationName;
     private String email;
     private String donationProgram;
-    private double donationAmount;
+    private int donationAmount;
 
     public Donation() {
         super();
     }
 
-    public Donation(Long donationID, String donationName, String email, String donationProgram, double donationAmount) {
+    public Donation(Long donationID, String donationName, String email, String donationProgram, int donationAmount) {
         super();
         this.donationID = donationID;
         this.donationName = donationName;
@@ -61,11 +61,11 @@ public class Donation {
         this.donationProgram = donationProgram;
     }
 
-    public double getDonationAmount() {
+    public int getDonationAmount() {
         return donationAmount;
     }
 
-    public void setDonationAmount(double donationAmount) {
+    public void setDonationAmount(int donationAmount) {
         this.donationAmount = donationAmount;
     }
 

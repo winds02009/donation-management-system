@@ -15,6 +15,17 @@ public class DonationService {
 		return repo.findAll();
 	}
 
+	// Filter donations; blank program / email means "any"
+	public List<Donation> search(int minAmount, int maxAmount, String program, String email) {
+		if (program != null && program.isBlank()) {
+			program = null;
+		}
+		if (email != null && email.isBlank()) {
+			email = null;
+		}
+		return repo.findByCriteria(minAmount, maxAmount, program, email == null ? null : email.trim());
+	}
+
 	public void save(Donation don) {
 		repo.save(don);
 	}
