@@ -19,7 +19,7 @@
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
 	integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
 	crossorigin="anonymous"></script>
-<title>Edonor Registration</title>
+<title>HKHC - Manage Donor Accounts</title>
 </head>
 <body>
 	<div>
@@ -28,7 +28,7 @@
 		</P>
 	</div>
 	<div class="container">
-		<h2>Spring Boot Edonor System - Edonor Registration</h2>
+		<h2>HKHC - Manage Donor Accounts</h2>
 		<div align="right">
 			<a href="/userhome">Home</a><br /> <a href="/new">Add New</a> <br />
 			<a href="/logout">Logout</a>
@@ -39,10 +39,10 @@
 		<table class="table">
 			<thead class="thread-dark">
 				<tr>
-					<th>Edonor ID</th>
-					<th>Edonor Name</th>
-					<th>Course</th>
-					<th>Fee</th>
+					<th>Donor ID</th>
+					<th>Donor Name</th>
+					<th>Email</th>
+					<th>Password</th>
 					<th>Edit</th>
 					<th>Delete</th>
 				</tr>

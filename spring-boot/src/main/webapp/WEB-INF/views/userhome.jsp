@@ -89,28 +89,24 @@ main {
 	<main>
 		<section id=home>
 			<h2>Welcome to HKHC Donations</h2>
-			<p>Your contribution can make a difference. Join us in our
-				mission to protect the environment.</p>
+			<p>Your contribution can make a difference. Your donations can
+				change the life of people in our society.</p>
 		</section>
 
 		<section id="about">
 			<h2>About Us</h2>
-			<p>HKHC is dedicated to tackling environmental issues by
-				promoting sustainable practices and supporting conservation
-				projects.</p>
+			<p>Hong Kong Homeless Care (HKHC) is a non-profit organization targeting to solve the urgent needs of homeless individuals in Hong Kong. We provide immediate relief and long-term solutions for the homeless, working through a network of volunteers, donors, and partner organizations to offer services and resources to the most vulnerable members of our society.</p>
 		</section>
 
 		<section id="projects">
-			<h2>Our Projects</h2>
-			<p>We are involved in a range of projects, from reforestation to
-				clean energy initiatives. Learn more about our efforts to make the
-				world greener.</p>
+			<h2>Our Programs</h2>
+			<p>Choose the program you want to support: Homeless Children Program, Elderly Support Program or Community Development Program.</p>
 		</section>
 
 		<section id="donate">
 			<h2>Donate</h2>
-			<p>Every donation counts. Support our projects and help us create
-				a sustainable future.</p>
+			<p>Every donation makes a difference. $20 could help a person
+				from hunger. Support our programs and help homeless people in Hong Kong.</p>
 			<button onclick="location.href='Donation'">Donate Now</button>
 		</section>
 

@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="/css/databaseStyle.css">
 <!-- Link to an external CSS file -->
 
-<title>Admin - View Donations</title>
+<title>HKHC - My Donation History</title>
 
 <%
 Cookie[] cookies = request.getCookies();
@@ -35,7 +35,7 @@ for (Cookie cookie : cookies) {
 		</P>
 	</div>
 	<div class="container">
-		<h2>View Donations by Criteria</h2>
+		<h2>My Donation History</h2>
 		<div align="right">
 			<a href="/userhome">Home</a> <br /> <a href="/logout">Logout</a>
 		</div>

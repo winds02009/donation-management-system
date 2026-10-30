@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Make a Donation</title>
+<title>HKHC Donations - Login</title>
 <style>
 body {
 	font-family: Arial, sans-serif;

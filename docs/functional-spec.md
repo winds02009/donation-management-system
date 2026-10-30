@@ -3,7 +3,7 @@
 > Written from the source code in `spring-boot/` and the project brief (`docs/requirements.pdf`). The team's own full specification is in `docs/project-report.docx`.
 
 ## Client and requirements
-Hong Kong Homeless Care (HKHC) collects public donations online. The brief has four functions:
+Hong Kong Homeless Care (HKHC) is a non-profit organization targeting to solve the urgent needs of homeless individuals in Hong Kong, working through volunteers, donors and partner organizations (from the project report). It collects public donations online. The brief has four functions:
 1. Collect donor data (personal or organisational): registration via `/new`, stored in table `edonor`.
 2. Donor chooses a program and amount: `/Donation` form, saved by `/saveDonation`.
 3. HKHC views donations by selection criteria (e.g. amount > $5,000): admin page `/admin` and `/view-donations`.
